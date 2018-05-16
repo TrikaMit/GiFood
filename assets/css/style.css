@@ -1,0 +1,42 @@
+body {
+    background-image: url("../images/hotdog.png");
+    background-size: 150px 90px;
+}
+#my-jumbo{
+    text-align: center;
+    padding: 5px;
+    height: 40px;
+
+}
+
+.jumbotron{
+    padding-top:0px;
+    background: white;
+    padding-bottom: 75px;
+    border-bottom: darkgrey 2px solid;  
+}
+button{
+    padding:10px;
+}
+
+p{
+    margin-top:50px;
+    width: 100%;
+    background: white;
+}
+img{
+    width:480px;
+
+}
+
+.lead{
+    padding-top:10px;
+}
+#jumbodesc{
+    position: fixed;
+    bottom:0px;
+    right:0px;
+}
+label{
+    font-weight: bolder;
+}
