@@ -26,8 +26,10 @@ p{
 }
 img{
     width:480px;
-    
+}
 
+span{
+    background:white;
 }
 
 .lead{

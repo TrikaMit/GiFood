@@ -62,8 +62,8 @@ $(document).ready(function () {
                     console.log(title);
                     console.log(gif);
     
-                    var pRating = $("<p>").text("Rating: " + rating);
-                    var pTitle = $("<p>").text("Title: " + title);
+                    var pRating = $("<span>").text("Rating: " + rating);
+                    var pTitle = $("<span>").text("Title: " + title);
                     var foodImg = $("<img>");
                     foodImg.attr("src", image);
                     foodImg.attr("data-img", image);
@@ -72,7 +72,7 @@ $(document).ready(function () {
                     foodImg.prepend(pTitle);
                     foodImg.append(pRating);
     
-                    $("#gifs-here").append(foodImg).append(pTitle).append(pRating);
+                    $("#gifs-here").append(foodImg).append(pTitle).append(pRating).append("<br>");
     
                 }
     
