@@ -26,10 +26,18 @@ p{
 }
 img{
     width:480px;
+    background: white;
+    padding: 3px;
+    border: darkgrey 1px dashed;
 }
 
 span{
     background:white;
+    font-style: oblique;
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: darkgrey 1px dashed;
 }
 
 .lead{
